@@ -198,7 +198,7 @@
 
   - Trước khi chạy game, cần cài đặt các công cụ sau:
 
-    - Python 3.9 trở lên
+    - Python 3.12 trở lên
 
     - pip (trình quản lý thư viện Python)
 
