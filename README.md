@@ -204,7 +204,7 @@
 
 - 👉 Kiểm tra Python đã cài chưa:
 
-      python --version
+          python --version
 
 - Bước 2: Tải mã nguồn
 
@@ -222,7 +222,7 @@
 
 - 👉 Giúp tránh lỗi xung đột thư viện
 
-      python -m venv venv
+          python -m venv venv
 
 - Kích hoạt môi trường:
 
@@ -246,7 +246,7 @@
 
 - Bước 6: Chạy game
 
-      python main.py
+          python main.py
 
 ## 🧑‍💻 5. Người thực hiện
 - Sinh viên: **Nguyễn Quang Tiến** (MSSV: 1671020318)  
