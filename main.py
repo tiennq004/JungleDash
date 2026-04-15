@@ -1,5 +1,6 @@
 import os
 import random
+from datetime import datetime
 import pygame
 from pygame.locals import *
 
@@ -53,6 +54,7 @@ INTRO_LINES = [
 	"",
 	"Cuộc hành trình bắt đầu ngay bây giờ.",
 ]
+INTRO_CONTINUE_KEYS = {K_RETURN, K_SPACE}
 
 
 def wrap_text(text, font, max_width):
@@ -133,9 +135,17 @@ def draw_intro(surface):
 			y += text_line_h
 		y += paragraph_gap
 
-	hint = "Nhan phim bat ky hoac click chuot de tiep tuc"
+	hint = "Nhan Enter/Space hoac click trai de tiep tuc"
 	hint_img = intro_hint_font.render(hint, True, (180, 255, 180))
 	surface.blit(hint_img, (WIDTH // 2 - hint_img.get_width() // 2, panel_rect.bottom - 34))
+
+
+def save_screenshot(surface):
+	os.makedirs("screenshots", exist_ok=True)
+	stamp = datetime.now().strftime("%Y%m%d_%H%M%S")
+	path = os.path.join("screenshots", f"intro_{stamp}.png")
+	pygame.image.save(surface, path)
+	return path
 
 
 def draw_background(surface, image):
@@ -307,7 +317,12 @@ while running:
 	for event in pygame.event.get():
 		if event.type == QUIT:
 			running = False
-		if show_intro and event.type in (KEYDOWN, MOUSEBUTTONDOWN):
+		if show_intro and event.type == KEYDOWN:
+			if event.key == K_F12:
+				save_screenshot(win)
+			elif event.key in INTRO_CONTINUE_KEYS:
+				show_intro = False
+		if show_intro and event.type == MOUSEBUTTONDOWN and event.button == 1:
 			show_intro = False
 		if (not show_intro) and main_menu and selecting_stage and event.type == KEYDOWN:
 			if event.key == K_LEFT:
