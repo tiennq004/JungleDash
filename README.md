@@ -218,7 +218,7 @@
 
 - Bước 3: Di chuyển vào thư mục project
 
-  cd JungleDash
+          cd JungleDash
 
 - Bước 4: Tạo môi trường ảo (khuyến khích)
 
