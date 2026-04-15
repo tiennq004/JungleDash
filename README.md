@@ -116,65 +116,135 @@
 ## 🚀 3. Hình ảnh các chức năng chính
 
 <p align="center">
-  <img src="https://github.com/tiennq004/LTM_he_thong_canh_bao_thoi_gian_thuc/blob/main/docs/giao_dien_server.png" alt="Ảnh 1" width="800"/>
+  <img src="https://github.com/tiennq004/JungleDash/blob/main/img/giao_dien_chinh.png" alt="Ảnh 1" width="800"/>
 </p> 
 <p align="center">
-  <em>Hình 1: Giao diện của Server  </em>
+  <em>Hình 1: Giao diện chính của game  </em>
+</p>
+
+<p align="center">
+  <img src="https://github.com/tiennq004/JungleDash/blob/main/img/intro.png" alt="Ảnh 2" width="800"/>
+</p> 
+<p align="center">
+  <em>Hình 2: Intro của game  </em>
+</p>
+
+<p align="center">
+  <img src="https://github.com/tiennq004/JungleDash/blob/main/img/chon_man.png" alt="Ảnh 3" width="800"/>
+</p> 
+<p align="center">
+  <em>Hình 3: Chọn màn  </em>
+</p>
+
+<p align="center">
+  <img src="https://github.com/tiennq004/JungleDash/blob/main/img/man_1.png" alt="Ảnh 4" width="800"/>
+</p> 
+<p align="center">
+  <em>Hình 4: Màn 1  </em>
+</p>
+
+<p align="center">
+  <img src="https://github.com/tiennq004/JungleDash/blob/main/img/man_2.png" alt="Ảnh 5" width="800"/>
+</p> 
+<p align="center">
+  <em>Hình 5: Màn 2  </em>
+</p>
+
+<p align="center">
+  <img src="https://github.com/tiennq004/JungleDash/blob/main/img/man3.png" alt="Ảnh 6" width="800"/>
+</p> 
+<p align="center">
+  <em>Hình 6: Màn 3  </em>
+</p>
+
+<p align="center">
+  <img src="https://github.com/tiennq004/JungleDash/blob/main/img/man_4.png" alt="Ảnh 7" width="800"/>
+</p> 
+<p align="center">
+  <em>Hình 7: Màn 4  </em>
+</p>
+
+<p align="center">
+  <img src="https://github.com/tiennq004/JungleDash/blob/main/img/man5.png" alt="Ảnh 8" width="800"/>
+</p> 
+<p align="center">
+  <em>Hình 8: Màn 5  </em>
+</p>
+
+<p align="center">
+  <img src="https://github.com/tiennq004/JungleDash/blob/main/img/man6.png" alt="Ảnh 9" width="800"/>
+</p> 
+<p align="center">
+  <em>Hình 9: Màn 6  </em>
+</p>
+
+<p align="center">
+  <img src="https://github.com/tiennq004/JungleDash/blob/main/img/cu_chi_1.png" alt="Ảnh 10" width="800"/>
+</p> 
+<p align="center">
+  <em>Hình 10: Khi nắm tay vào nhân vật sẽ nhảy lên  </em>
+</p>
+
+<p align="center">
+  <img src="https://github.com/tiennq004/JungleDash/blob/main/img/cu_chi_2.png" alt="Ảnh 11" width="800"/>
+</p> 
+<p align="center">
+  <em>Hình 11: Giơ 1 ngón tay nhân vật sẽ bắn ra đạn để tiêu diệt quái vật  </em>
 </p>
 
 ## 📂 4. Các bước cài đặt 
 
 - Bước 1: Chuẩn bị môi trường
 
-  Trước khi chạy game, cần cài đặt các công cụ sau:
+  - Trước khi chạy game, cần cài đặt các công cụ sau:
 
-    Python 3.9 trở lên
+    - Python 3.9 trở lên
 
-    pip (trình quản lý thư viện Python)
+    - pip (trình quản lý thư viện Python)
 
-👉 Kiểm tra Python đã cài chưa:
+- 👉 Kiểm tra Python đã cài chưa:
 
       python --version
 
 - Bước 2: Tải mã nguồn
 
-    Clone project từ GitHub:
+    - Clone project từ GitHub:
 
-      git clone https://github.com/tiennq004/JungleDash.git
+          git clone https://github.com/tiennq004/JungleDash.git
 
-    Hoặc tải file .zip và giải nén.
+    - Hoặc tải file .zip và giải nén.
 
 - Bước 3: Di chuyển vào thư mục project
 
-cd JungleDash
+  cd JungleDash
 
 - Bước 4: Tạo môi trường ảo (khuyến khích)
 
-👉 Giúp tránh lỗi xung đột thư viện
+- 👉 Giúp tránh lỗi xung đột thư viện
 
       python -m venv venv
 
 - Kích hoạt môi trường:
 
-  Windows:
+  - Windows:
 
-      venv\Scripts\activate
-
-      Mac/Linux:
-
-      source venv/bin/activate
+          venv\Scripts\activate
+    
+          Mac/Linux:
+    
+          source venv/bin/activate
 
 - Bước 5: Cài đặt thư viện
 
-  Cài các thư viện cần thiết:
+  - Cài các thư viện cần thiết:
 
-      pip install pygame opencv-python mediapipe numpy
+          pip install pygame opencv-python mediapipe numpy
 
-👉 Nếu project có file requirements.txt:
+    - 👉 Nếu project có file requirements.txt:
 
-      pip install -r requirements.txt
+          pip install -r requirements.txt
 
-🔹 Bước 6: Chạy game
+- Bước 6: Chạy game
 
       python main.py
 
@@ -183,4 +253,4 @@ cd JungleDash
 - Lớp: CNTT 16-03 – Đại học Đại Nam  
 - Học phần: Lập trình mạng  
 
-© 2025 AIoTLab, Faculty of Information Technology, DaiNam University. All rights reserved.
+© 2026 AIoTLab, Faculty of Information Technology, DaiNam University. All rights reserved.
