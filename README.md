@@ -99,7 +99,7 @@
 
 ## 🔧 2. Công nghệ & Công cụ sử dụng
 
-- Ngôn ngữ lập trình:![Python Logo](https://www.python.org/static/community_logos/python-logo.png)
+- Ngôn ngữ lập trình: <img src="https://www.python.org/static/community_logos/python-logo.png" width="80"/>
 
 - Thư viện chính:
 
