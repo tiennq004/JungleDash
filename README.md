@@ -29,11 +29,11 @@
 
 - Game được xây dựng với mục đích:
 
-    Áp dụng kiến thức về lập trình game 2D
+        Áp dụng kiến thức về lập trình game 2D
 
-    Tìm hiểu về xử lý ảnh / nhận diện cử chỉ (nếu có tích hợp)
+        Tìm hiểu về xử lý ảnh / nhận diện cử chỉ (nếu có tích hợp)
 
-    Phát triển kỹ năng thiết kế giao diện và logic game
+        Phát triển kỹ năng thiết kế giao diện và logic game
 
 - 🎮 Gameplay
 
