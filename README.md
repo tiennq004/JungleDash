@@ -240,7 +240,7 @@
 
           pip install pygame opencv-python mediapipe numpy
 
-    - 👉 Nếu project có file requirements.txt:
+  - 👉 Nếu project có file requirements.txt:
 
           pip install -r requirements.txt
 
