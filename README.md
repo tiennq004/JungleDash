@@ -204,6 +204,8 @@
 
 - 👉 Kiểm tra Python đã cài chưa:
 
+    - Chạy lệnh sau:
+
           python --version
 
 - Bước 2: Tải mã nguồn
