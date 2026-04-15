@@ -23,29 +23,29 @@
 
 📖 1. Giới thiệu game
 
-Jungle Dash là một trò chơi 2D thuộc thể loại hành động – chạy vô tận (Endless Runner) nơi người chơi điều khiển nhân vật chính Kael Shadowstride vượt qua khu rừng cổ đại đầy nguy hiểm.
+- Jungle Dash là một trò chơi 2D thuộc thể loại hành động – chạy vô tận (Endless Runner) nơi người chơi điều khiển nhân vật chính Kael Shadowstride vượt qua khu rừng cổ đại đầy nguy hiểm.
 
-Mục tiêu của trò chơi là giúp nhân vật sống sót càng lâu càng tốt bằng cách né tránh chướng ngại vật, vượt qua cạm bẫy và phản ứng nhanh với các tình huống bất ngờ.
+- Mục tiêu của trò chơi là giúp nhân vật sống sót càng lâu càng tốt bằng cách né tránh chướng ngại vật, vượt qua cạm bẫy và phản ứng nhanh với các tình huống bất ngờ.
 
-Game được xây dựng với mục đích:
+- Game được xây dựng với mục đích:
 
-  Áp dụng kiến thức về lập trình game 2D
-
-  Tìm hiểu về xử lý ảnh / nhận diện cử chỉ (nếu có tích hợp)
-
-  Phát triển kỹ năng thiết kế giao diện và logic game
+    - Áp dụng kiến thức về lập trình game 2D
+    
+    - Tìm hiểu về xử lý ảnh / nhận diện cử chỉ (nếu có tích hợp)
+    
+    - Phát triển kỹ năng thiết kế giao diện và logic game
 
 - 🎮 Gameplay
 
-    Người chơi sẽ điều khiển nhân vật Kael Shadowstride thực hiện các hành động:
+    - Người chơi sẽ điều khiển nhân vật Kael Shadowstride thực hiện các hành động:
 
 - 🏃‍♂️ Chạy liên tục trong môi trường rừng
 
-    ⬆️ Nhảy để né chướng ngại vật
+    - ⬆️ Nhảy để né chướng ngại vật
 
-    ⚡ Né bẫy và tránh kẻ thù
+    - ⚡ Né bẫy và tránh kẻ thù
 
-    🎯 Tăng điểm theo thời gian sống sót
+    - 🎯 Tăng điểm theo thời gian sống sót
 
 - 🔥 Đặc điểm nổi bật:
 
