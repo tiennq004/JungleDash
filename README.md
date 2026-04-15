@@ -21,7 +21,7 @@
 
 ---
 
-📖 1. Giới thiệu game
+## 📖 1. Giới thiệu game
 
 - Jungle Dash là một trò chơi 2D thuộc thể loại hành động – chạy vô tận (Endless Runner) nơi người chơi điều khiển nhân vật chính Kael Shadowstride vượt qua khu rừng cổ đại đầy nguy hiểm.
 
@@ -251,7 +251,8 @@
           python main.py
 
 ## 🧑‍💻 5. Người thực hiện
-- Sinh viên: **Nguyễn Quang Tiến** (MSSV: 1671020318)  
+- Sinh viên: **Nguyễn Quang Tiến** (MSSV: 1671020318)
+**Hoàng Thế Khải** (MSSV: 1671020165)
 - Lớp: CNTT 16-03 – Đại học Đại Nam  
 - Học phần: Lập trình mạng  
 
