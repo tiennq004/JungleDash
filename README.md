@@ -246,7 +246,9 @@
 
 - Bước 6: Chạy game
 
-      python main.py
+    -Mở terminal và chạy lệnh sau: 
+
+        python main.py
 
 ## 🧑‍💻 5. Người thực hiện
 - Sinh viên: **Nguyễn Quang Tiến** (MSSV: 1671020318)  
