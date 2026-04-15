@@ -220,7 +220,7 @@
 
 - Bước 4: Tạo môi trường ảo (khuyến khích)
 
-- 👉 Giúp tránh lỗi xung đột thư viện
+    - 👉 Giúp tránh lỗi xung đột thư viện
 
           python -m venv venv
 
