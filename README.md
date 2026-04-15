@@ -4,7 +4,7 @@
     </a>
 </h2>
 <h2 align ="center">  
-   JUNGLE DASH – GAME 2D HÀNH ĐỘNG PHIÊU LƯU
+   JUNGLE DASH – GAME 2D HÀNH ĐỘNG PHIÊU LƯU CHƠI BẰNG CỬ CHỈ TAY QUA CAMERA
 </h2>
 
 <div align ="center">
