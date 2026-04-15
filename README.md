@@ -49,53 +49,53 @@
 
 - 🔥 Đặc điểm nổi bật:
 
-    Tốc độ game tăng dần → độ khó tăng theo thời gian
+    - Tốc độ game tăng dần → độ khó tăng theo thời gian
 
-    Gameplay đơn giản nhưng gây nghiện
+    - Gameplay đơn giản nhưng gây nghiện
 
-    Có thể tích hợp điều khiển bằng cử chỉ (AI / MediaPipe)
+    - Có thể tích hợp điều khiển bằng cử chỉ (AI / MediaPipe)
 
-    Hệ thống điểm số và kỷ lục
+    - Hệ thống điểm số và kỷ lục
 
 - 🧑Nhân vật chính
 
-    ⚔️ Anh Liêm
+    - ⚔️ Anh Liêm
 
-    Là một nhà thám hiểm trẻ dũng cảm
+        - Là một nhà thám hiểm trẻ dũng cảm
+    
+        - Nhiệm vụ: khám phá khu rừng và sống sót
 
-    Nhiệm vụ: khám phá khu rừng và sống sót
+      - Kỹ năng:
 
-  Kỹ năng:
-
-    Dash (lướt nhanh)
-
-    Nhảy / Nhảy đôi
-
-    Né tránh linh hoạt
+        - Dash (lướt nhanh)
+    
+        - Nhảy / Nhảy đôi
+    
+        - Né tránh linh hoạt
 
 - 🖥️Cấu trúc hệ thống
 
-  Game gồm các thành phần chính:
+     - Game gồm các thành phần chính:
 
 - 🎨Giao diện (UI)
 
-    Hiển thị nhân vật, background, chướng ngại vật
+    - Hiển thị nhân vật, background, chướng ngại vật
 
-    Hiển thị điểm số, trạng thái game
+    - Hiển thị điểm số, trạng thái game
 
 - 🧠 Game Logic
 
-    Xử lý va chạm (collision detection)
+    - Xử lý va chạm (collision detection)
 
-    Sinh chướng ngại vật ngẫu nhiên
+    - Sinh chướng ngại vật ngẫu nhiên
 
-Tăng tốc độ theo thời gian
+    - Tăng tốc độ theo thời gian
 
 - 🎮 Điều khiển
 
-    Bàn phím (Space, Arrow keys)
+    - Bàn phím (Space, Arrow keys)
 
-    (Tùy chọn) Camera nhận diện cử chỉ
+    - Camera nhận diện cử chỉ
 
 ## 🔧 2. Công nghệ & Công cụ sử dụng
 
@@ -103,15 +103,15 @@ Tăng tốc độ theo thời gian
 
 - Thư viện chính:
 
-    Pygame (xây dựng game 2D)
+    - Pygame (xây dựng game 2D)
 
-    OpenCV (xử lý camera)
+    - OpenCV (xử lý camera)
 
-    MediaPipe (nhận diện cử chỉ)
+    - MediaPipe (nhận diện cử chỉ)
 
-    IDE: VS Code / PyCharm
+    - IDE: VS Code / PyCharm
 
-    Hệ điều hành: Windows 10/11
+    - Hệ điều hành: Windows 10/11
 
 ## 🚀 3. Hình ảnh các chức năng chính
 
